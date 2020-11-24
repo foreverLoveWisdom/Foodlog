@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Foodlog	inherits:Rails.Application
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	inherits:ActionController.Base
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	inherits:ActiveJob.Base
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	inherits:ActionMailer.Base
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	inherits:ActiveRecord.Base
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c	inherits:ActionDispatch.SystemTestCase
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable	inherits:ActionCable.Channel.Base
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable	inherits:ActionCable.Connection.Base
+ConnectionTest	test/channels/application_cable/connection_test.rb	/^class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCase$/;"	c	class:ApplicationCable	inherits:ActionCable.Connection.TestCase
+CreateEntries	db/migrate/20201124121807_create_entries.rb	/^class CreateEntries < ActiveRecord::Migration[6.0]$/;"	c	inherits:ActiveRecord.Migration
+EntriesController	app/controllers/entries_controller.rb	/^class EntriesController < ApplicationController$/;"	c	inherits:ApplicationController
+EntriesControllerTest	test/controllers/entries_controller_test.rb	/^class EntriesControllerTest < ActionDispatch::IntegrationTest$/;"	c	inherits:ActionDispatch.IntegrationTest
+EntriesHelper	app/helpers/entries_helper.rb	/^module EntriesHelper$/;"	m
+EntriesTest	test/system/entries_test.rb	/^class EntriesTest < ApplicationSystemTestCase$/;"	c	inherits:ApplicationSystemTestCase
+Entry	app/models/entry.rb	/^class Entry < ApplicationRecord$/;"	c	inherits:ApplicationRecord
+EntryTest	test/models/entry_test.rb	/^class EntryTest < ActiveSupport::TestCase$/;"	c	inherits:ActiveSupport.TestCase
+Foodlog	config/application.rb	/^module Foodlog$/;"	m
+TestCase	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	class:ActiveSupport
+change	db/migrate/20201124121807_create_entries.rb	/^  def change$/;"	f	class:CreateEntries
+create	app/controllers/entries_controller.rb	/^  def create$/;"	f	class:EntriesController
+destroy	app/controllers/entries_controller.rb	/^  def destroy$/;"	f	class:EntriesController
+edit	app/controllers/entries_controller.rb	/^  def edit$/;"	f	class:EntriesController
+entry_params	app/controllers/entries_controller.rb	/^    def entry_params$/;"	f	class:EntriesController
+index	app/controllers/entries_controller.rb	/^  def index$/;"	f	class:EntriesController
+new	app/controllers/entries_controller.rb	/^  def new$/;"	f	class:EntriesController
+set_entry	app/controllers/entries_controller.rb	/^    def set_entry$/;"	f	class:EntriesController
+show	app/controllers/entries_controller.rb	/^  def show$/;"	f	class:EntriesController
+update	app/controllers/entries_controller.rb	/^  def update$/;"	f	class:EntriesController
