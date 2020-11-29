@@ -2,8 +2,7 @@
 lock '3.14.1'
 
 set :application, 'Foodlog'
-# set :repo_url, 'git@github.com:foreverLoveWisdom/Foodlog.git' # Edit this to match your repository
-set :repo_url, 'git://github.com:foreverLoveWisdom/Foodlog.git' # Edit this to match your repository
+set :repo_url, 'git://github.com/foreverLoveWisdom/Foodlog.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/Foodlog'
 set :pty, true
