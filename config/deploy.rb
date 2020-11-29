@@ -3,7 +3,7 @@ lock '3.14.1'
 
 set :application, 'Foodlog'
 set :repo_url, 'git://github.com/foreverLoveWisdom/Foodlog.git' # Edit this to match your repository
-set :branch, :master
+set :branch, :main
 set :deploy_to, '/home/deploy/Foodlog'
 set :pty, true
 set :linked_files, %w[config/database.yml config/application.yml]
